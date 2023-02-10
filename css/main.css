@@ -91,14 +91,65 @@ textarea {
    Helper classes
    ========================================================================== */
 
-/*
- * Hide visually and from screen readers
- */
-
-.hidden,
-[hidden] {
-  display: none !important;
+main{
+  background:#fff;
+  width:59vw;
+  margin:0 auto;
 }
+
+article{
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3,1fr);
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: minmac(300px,max-content);
+gap: 1rem;
+}
+
+section {
+  background: #ccc;
+  padding:1rem;
+}
+
+nav ul{
+  display:flex;
+  background-color: #222;
+padding:1rem;
+}
+
+nav li{
+  flex:auto;
+  padding: 1rem;
+margin: 1rem;
+background-color: #f5f5f5;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  padding: 1rem;
+margin:1rem;
+background-color: #f5f5f5;
+border: 1px solid #999;
+}
+
+.box>*:first-child{
+  align-self:stretch;
+}
+
+.box .selected{
+  align-self: center;
+}
+
+.flex-item{
+  padding:1rem;
+  margin: 1rem;
+  background-color: yellow;
+  border: 1px solid #999;
+}
+
 
 /*
  * Hide only visually, but have it available for screen readers:

@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  font-family: "june-expt-variable", sans-serif;
+
+  margin: 0;
+  font-size: 200px;
+  color: white;
+  animation-name:bg-change;
+   animation-duration:2s;
+  animation-iteration-count:infinite;
+}
+@keyframes bg-change {
+  from {
+    background-color: black;
+    color:white;
+    letter-spacing:0px;
+    filter:blur(8px);
+    font-size:100px;
+    font-variation-settings: "STYL" 0;
+  }
+  to {
+    background-color: white;
+    color:black;
+     letter-spacing:50px;
+    filter:blur(1px);
+    font-s1ze:800px;
+    font-variation-settings: "STYL" 100;
+  }
+  /*"both"playing back and forth*/
+}
+.text{
+  text-align:center;
+}

@@ -1,0 +1,48 @@
+body {
+background-color: ghostwhite;
+}
+.author{
+position: absolute;
+font-family: "kepler-3-variable", sans-serif;
+font-variation-settings: "opsz" 5, "wdth" 80, "wght" 280;
+font-size: 20px;
+text-align: left;
+color: black;
+margin-left: 10px;
+
+}
+.myname{
+position: right-top;
+font-family: "kepler-3-variable", sans-serif;
+font-variation-settings: "opsz" 5, "wdth" 80, "wght" 280;
+font-size: 20px;
+text-align: right;
+color: black;
+
+}
+.title{
+  margin-top:150px;
+  font-family: times new roman;
+  transform: skew(60deg,0deg);
+font-weight: 700;
+font-style: normal;
+font-size: 75px;
+text-align: center;
+color: black;
+
+
+}
+.shadow{
+  margin-top: 150px;
+  margin-left: 30px;
+  font-family: times new roman;
+  transform: skew(60deg,0deg);
+font-weight: 700;
+font-style: normal;
+font-size: 150px;
+text-align: center;
+color: black;
+opacity: 50%;
+filter: blur(3.5px);}
+
+

@@ -1,0 +1,33 @@
+/* reset */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* type */
+
+body {
+  font-family: "jaf-bernina-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-family: "jaf-bernina-sans", sans-serif;
+font-weight: 300;
+font-style: normal;;
+    text-align: center;
+    font-size: 38px;
+    line-height: 1.2;
+    background-color: #F6F6F2;
+}
+
+/* structure */
+.spacer{
+  height: 100vh;
+  border: 2px solid red;
+}
+
+section{
+  height: 50vh;
+  background: #7CFC00;
+  margin: 50px;
+}
