@@ -1,5 +1,5 @@
 body {
-    background-color:ghostwhite;
+    background-color:black;
     width:100vw;
     height:100vh;
     margin:0%;
@@ -13,7 +13,7 @@ body {
         font-style: normal;
         font-size: 17px;
         text-align: left;
-        color: black;
+        color: ghostwhite;
         padding: 10px;
       
         
@@ -25,7 +25,7 @@ body {
         font-style: normal;
         font-size: 17px;
         text-align: right;
-        color: black;
+        color: ghostwhite;
         padding: 10px;
       
         
