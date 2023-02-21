@@ -1,26 +1,40 @@
 body {
 background-color: ghostwhite;
+width:100vw;
+height:100vh;
+overflow:hidden;
+margin:0%;
+}
+a {
+  color: black;
+  text-decoration: none;
 }
 .author{
 position: absolute;
-font-family: "kepler-3-variable", sans-serif;
-font-variation-settings: "opsz" 5, "wdth" 80, "wght" 280;
-font-size: 20px;
+font-family: "elza", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 17px;
 text-align: left;
 color: black;
-margin-left: 10px;
+padding: 10px;
 
 }
 .myname{
 position: right-top;
-font-family: "kepler-3-variable", sans-serif;
-font-variation-settings: "opsz" 5, "wdth" 80, "wght" 280;
-font-size: 20px;
+font-family: "elza", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 17px;
 text-align: right;
 color: black;
+padding: 10px;
 
 }
 .title{
+  position: absolute;
+  top: 10%;
+  left: 30%;
   margin-top:150px;
   font-family: times new roman;
   transform: skew(60deg,0deg);
@@ -33,6 +47,9 @@ color: black;
 
 }
 .shadow{
+  position: absolute;
+  top: 30%;
+  left: 5%;
   margin-top: 150px;
   margin-left: 30px;
   font-family: times new roman;
@@ -44,5 +61,7 @@ text-align: center;
 color: black;
 opacity: 50%;
 filter: blur(3.5px);}
+
+
 
 

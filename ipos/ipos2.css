@@ -1,0 +1,75 @@
+body {
+    background-color: ghostwhite;
+    animation-fill-mode: forwards;
+    width:100vw;
+height:100vh;
+overflow:hidden;
+margin:0%;
+
+    
+    
+    }
+    
+    .author{
+      
+        font-family: "elza", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        text-align: left;
+        color: black;
+        padding: 10px;
+        
+        }
+        .myname{
+
+        font-family: "elza", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        text-align: right;
+        color: black;
+        padding: 10px;
+        
+        }
+
+    .shadow1{
+        transform:skew(-60deg,0deg )translate(-100%,0%);
+        font-family: "bely", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      font-size: 16px;
+    }
+    
+
+    .shadow2{
+        transform:skew(60deg,0deg )translate(100%,0%);
+        font-family: "bely", serif;
+        font-weight: 400;
+        font-style: normal;
+       font-size: 16px;
+
+    }
+
+    .text1{
+
+text-align: right;
+font-family: "bely", serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: 16px;
+padding-top: 5%;
+
+    }
+
+    .text2{
+
+text-align: left;
+font-family: "bely", serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: 16px;
+padding-top: 5%;
+
+    }

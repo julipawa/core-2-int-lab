@@ -1,0 +1,115 @@
+body {
+    background-color: ghostwhite;
+    width:100vw;
+    height:100vh;
+    margin:0%;
+    overflow: hidden;
+    }
+
+ .author{
+
+        font-family: "elza", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        text-align: left;
+        color: black;
+        padding: 10px;
+      
+        
+        }
+.myname{
+      
+        font-family: "elza", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        text-align: right;
+        color: black;
+        padding: 10px;
+      
+        
+        }
+
+.main1{
+    padding-top: 2%;
+    width:95vw;
+    height: 56.5fr;
+margin: 0 auto;
+clear: both;
+background-color: black;
+  
+ 
+  }
+  
+  article{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+ 
+  grid-template-rows: auto;  
+  gap: 1rem;
+
+  }
+
+  section {
+    background: ghostwhite;
+   text-align: center;
+   font-family: "bely", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+
+
+
+  }
+
+  .one {
+    grid-column:  1 ;
+    grid-row: 1 / 30;
+  }
+  .two {
+    grid-column: 2;
+    grid-row:  1 / 30;
+  }
+  .three {
+    grid-column: 3;
+    grid-row: 1 / 30;
+  }
+  .four {
+    grid-column: 4;
+    grid-row: 1 / 30;
+  }
+  .five {
+    grid-column: 5;
+    grid-row: 1 / 30;}
+
+
+
+      .six{
+        grid-column:  1 ;
+        grid-row: 30 / 45;
+        transform:skew(-60deg,0) translate(-360px,0);
+        filter: blur(1.5px);
+      }
+      .seven{
+        grid-column: 2;
+    grid-row:  30 / 45;
+    transform:skew(-50deg,0) translate(-240px,0);
+    filter: blur(1.5px);
+  }
+
+      .eight{
+        grid-column: 3;
+    grid-row: 30 / 45;
+    transform: scale(1.2, 0.7) translate(0,-80px);
+    filter: blur(1.5px);
+      }
+
+      .nine{
+        grid-column: 4;
+        grid-row: 30 / 45;
+      }
+
+      .ten{
+        grid-column: 5;
+        grid-row: 30 / 45;}

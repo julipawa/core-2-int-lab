@@ -1,42 +1,78 @@
 body {
-background-color: black;
+background-color: white;
+animation-name:bg-change;
+animation-duration:5s;
+animation-fill-mode: forwards;
+width:100vw;
+height:100vh;
+margin:0%;
+overflow: hidden;
 }
+
 .author{
-position: absolute;
-font-family: "kepler-3-variable", sans-serif;
-font-variation-settings: "opsz" 5, "wdth" 80, "wght" 280;
-font-size: 20px;
-text-align: left;
-color: whitesmoke;
 
-}
-.myname{
-position: right-top;
-font-family: "kepler-3-variable", sans-serif;
-font-variation-settings: "opsz" 5, "wdth" 80, "wght" 280;
-font-size: 20px;
-text-align: right;
-color: whitesmoke;
+  font-family: "elza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  text-align: left;
+  color: black;
+  padding: 10px;
 
-}
+  
+  }
+  .myname{
+
+  font-family: "elza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  text-align: right;
+  color: black;
+  padding: 10px;
+
+  
+  }
+
 .temple{
-	width:1356px;
-	height:911px;
-	position:absolute;
-	font-family: "miller-text", serif;
-font-weight: 400;
-font-style: normal;
-font-size: 24px;
+
+position:absolute;
+  margin-top: 80px;
+  font-family: "bely", serif;
+  font-weight: 400;
+  font-style: normal;
+
+font-size: 16px;
+text-align: center;
+animation-name:t-change;
+animation-duration:5s;
+animation-fill-mode: forwards
 
 }
 
-.temple:hover {
+@keyframes bg-change {
+  from {
+    background-color: ghostwhite;
+  }
+  to {
+    background-color: black;
+ 
+  }
+}
+@keyframes t-change {
+  from {
+    color: black;
+  }
+  to {
+    color: ghostwhite;
+ 
+  }
+}
 
-  animation-name: temple-update;
-  animation-duration: 10s;
-   animation-iteration-count:infinite;
-}
-@keyframes temple-update {
-  from {color:black}
-  to {color:white;
-}
+
+
+
+
+
+
+  
