@@ -36,13 +36,13 @@ background: linear-gradient(0deg, rgba(178,156,180,1) 0%, rgba(255,138,31,0.5144
 
        a {
         color: black;
-        text-decoration: none;
+        text-decoration: underline;
       }
       svg {
     position:relative;
         width: 15vh;
         height: 15vh;
-        top: 6%;
+        top: 20%;
         left: 22%;
         border-radius: 200px;
         background-color: #e07a1d;
