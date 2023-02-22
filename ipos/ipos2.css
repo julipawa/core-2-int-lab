@@ -6,8 +6,13 @@ height:100vh;
 overflow:hidden;
 margin:0%;
 
+
+
     
     
+    }
+    main{
+      background-color: ghostwhite;
     }
     
     .author{

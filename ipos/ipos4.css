@@ -18,6 +18,10 @@ body {
       
         
         }
+        a {
+          color: black;
+          text-decoration: none;
+        }
 .myname{
       
         font-family: "elza", sans-serif;
