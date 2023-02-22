@@ -38,22 +38,7 @@ background: linear-gradient(0deg, rgba(178,156,180,1) 0%, rgba(255,138,31,0.5144
         color: black;
         text-decoration: underline;
       }
-      svg {
-    position:relative;
-        width: 15vh;
-        height: 15vh;
-        top: 20%;
-        left: 22%;
-        border-radius: 200px;
-        background-color: #e07a1d;
-        filter: blur(3px);
-
-  
-      }
-      svg:hover{
-        width: 20vh;
-        height: 20vh;
-      }
+ 
      
     .temple{
       padding-top: 6%;
