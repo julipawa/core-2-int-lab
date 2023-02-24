@@ -1,42 +1,98 @@
-/* reset */
-
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
-/* type */
-
-body {
- font-family: "area-normal", sans-serif;
-font-weight: 400;
-
-    text-align: center;
-    font-size: 25px;
-    line-height: 1.2;
-    background-color: AAAFAE;
-}
-.spacer{
-  height: 100vh;
-  border: 2px solid red;
-}
-
-section{
-  font-style: normal; font-family: "halogen", sans-serif;
-font-weight: 300;
-font-style: normal;
-  height: 100vh;
-  background:  #9FFFE1;
-  margin: 50px;
-}
-img {
-  margin-top: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  height:25%
-}
-h2{
-  margin-top: 20px;
-}
+body{
+  background-color: ghostwhite;
+  }
+  main{
+      padding:0%;
+  }
+  a{
+      color: black;
+      text-decoration: none;
+  }
+  
+  .wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0px;
+      grid-auto-rows: minmax(350px, auto);
+      
+    }
+    
+    .visual-element {
+      background-color: none;
+      padding: 2%;
+    }
+  
+  
+    .one {
+      grid-column: 1 / 2;
+      grid-row: 1;
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+      font-family: "tomasa", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 72px;
+    }
+  
+    .two {
+      grid-column: 2 / 3;
+      grid-row: 1;
+      border-bottom: 1px solid black;
+      font-family: "bilo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  align-self:flex-end;
+  text-align: right;
+    }
+  
+    .three {
+      grid-column: 3 / 4;
+      grid-row: 1;
+      border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      font-family: "bilo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+    }
+  
+    .four {
+      grid-column: 1 / 2;
+      grid-row: 2;
+      border-right: 1px solid black;
+      font-family: "bilo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+   
+  
+    }
+    .five {
+      grid-column: 2 / 3;
+      grid-row: 2;
+      font-family: "bilo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  align-self:center;
+  
+  
+    }
+  
+  
+    .six {
+      grid-column: 3 / 4;
+      grid-row: 2;
+      border-left: 1px solid black;
+      font-family: "tomasa", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  text-align: center;
+    }
+  
+  
+    .name{
+   color:#46f289;
+    }
