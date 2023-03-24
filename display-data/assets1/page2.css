@@ -1,0 +1,132 @@
+body {
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right,#FF9900 1px, transparent 1px),
+      linear-gradient(to bottom,#FF9900 1px, transparent 1px);
+      cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✏️</text></svg>") 16 0,auto; 
+  }
+  
+  .left{
+    float:left;
+    width: 50%;
+   margin: 0;
+    box-sizing: border-box;
+    border-right: solid 1px black;
+  height: 100%;
+   }
+  
+  
+   .right{
+    float: right;
+    width:50%;
+  height: 100%;
+    box-sizing: border-box;
+  height: 100%;
+   }
+  
+  
+
+
+.polaroid1{
+    font-family: "inglesa-caps-variable", sans-serif;
+font-variation-settings: "wght" 400;
+font-size: 16px;
+inline-size: 50px; 
+margin-left: 45%;
+
+}
+  .polaroid1 a {
+    background: #FF9900;
+    display: inline-block;
+    margin: 55px 75px 30px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+  }
+  
+  .polaroid1 a:after {
+    color: #333;
+    font-size: 25px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
+  }
+  
+  .polaroid1 img {
+    display: block;
+    width: 250px;
+  }
+  
+  .polaroid1 a:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔎</text></svg>") 16 0,auto; 
+  }
+
+    .polaroid2{
+    font-family: "inglesa-caps-variable", sans-serif;
+font-variation-settings: "wght" 400;
+font-size: 16px;
+inline-size: 50px; 
+margin-left: 10%;
+
+}
+  .polaroid2 a {
+    background: #FF9900;
+    display: inline-block;
+    margin: 55px 75px 30px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+  }
+  
+  .polaroid2 a:after {
+    color: #333;
+    font-size: 25px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
+  }
+  
+  .polaroid2 img {
+    display: block;
+    width: 250px;
+  }
+  
+  .polaroid2 a:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔎</text></svg>") 16 0,auto; 
+  }
+
+
+    p{
+        font-family: "inglesa-script-variable", sans-serif;
+font-variation-settings: "wght" 400;
+    }
