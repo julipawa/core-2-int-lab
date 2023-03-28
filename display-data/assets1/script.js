@@ -1,4 +1,4 @@
-//setup container element
+
 let container = document.getElementById("container1");
 let container2 = document.getElementById("container2");
 let container3 = document.getElementById("container3");
@@ -11,79 +11,64 @@ fetch('./assets1/emojis.json')
     displayData(data);
   })
   .catch(error => console.log(error));
-  const myLink = {
-    "text": "Link to my site",
-    "url": "https://www.example.com"
-};
 
-function MyComponent() {
-    return (
-        <a href={myLink.url}>{myLink.text}</a>
-    );
-}
-
-
-  function createLink() {
-    let anchor = document.createElement('a');
-    let link = document.createTextNode("Name of resturant");
-    anchor.appendChild(link);
- 
-}
 function displayData(data) {
   data.forEach(function(item, index) {
     console.log(item, index);
    if (item.genre == 'AMERICAN'){
       let newItem = document.createElement("div");
       newItem.innerHTML = `
-        <p class="Nameofresturant">${item['Name of resturant']}</p>`;
+        <p class="Nameofresturant">${item['nameofresturant']}</p>`;
       container.appendChild(newItem);
     }
     else if (item.genre == 'CHINESE') {
       let newItem = document.createElement("div");
       newItem.innerHTML = `
-        <p class="Nameofresturant">${item['Name of resturant']}</p>`;
+        <p class="Nameofresturant">${item['nameofresturant']}</p>`;
       container2.appendChild(newItem);
     }
     else if( item.genre == 'FRENCH'){
       let newItem = document.createElement("div");
       newItem.innerHTML = `
-        <p class="Nameofresturant">${item['Name of resturant']}</p>`;
+        <p class="Nameofresturant">${item['nameofresturant']}</p>`;
       container3.appendChild(newItem); 
     }
     else if( item.genre == 'FUSION'){
       let newItem = document.createElement("div");
       newItem.innerHTML = `
-        <p class="Nameofresturant">${item['Name of resturant']}</p>`;
+        <p class="Nameofresturant">${item['nameofresturant']}</p>`;
       container4.appendChild(newItem); 
     }
     else if( item.genre == 'ITALIAN'){
       let newItem = document.createElement("div");
       newItem.innerHTML = `
-        <p class="Nameofresturant">${item['Name of resturant']}</p>`;
+        <p class="Nameofresturant">${item['nameofresturant']}</p>`;
       container5.appendChild(newItem); 
     }
     else if( item.genre == 'JAPANESE'){
       let newItem = document.createElement("div");
       newItem.innerHTML = `
-        <p class="Nameofresturant">${item['Name of resturant']}</p>`;
+        <p class="Nameofresturant">${item['nameofresturant']}</p>`;
       container6.appendChild(newItem); 
     }
     else if( item.genre == 'SPANISH'){
       let newItem = document.createElement("div");
       newItem.innerHTML = `
-        <p class="Nameofresturant">${item['Name of resturant']}</p>`;
+        <p class="Nameofresturant">${item['nameofresturant']}</p>`;
       container7.appendChild(newItem); 
     }
     else if( item.genre == 'THAI'){
       let newItem = document.createElement("div");
       newItem.innerHTML = `
-        <p class="Nameofresturant">${item['Name of resturant']}</p>`;
+        <p class="Nameofresturant">${item['nameofresturant']}</p>`;
       container8.appendChild(newItem); 
     }
   });
 }
 
-
+  
+  
+  
 
 
 
