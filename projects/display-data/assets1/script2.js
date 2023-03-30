@@ -14,12 +14,22 @@ function processEmojis(data) {
   // Loop through each item in the data array
   data.forEach(item => {
     // Check if the item's ID matches the key
+    console.log(item.id, item.id === key);
+
     if (item.id === key) {
       // Create a new div element with the restaurant name
-      let newItem = document.createElement("div");
-      newItem.innerHTML = `
+      let review = document.createElement("div");
+      review.classList.add('review');
+
+      let info = document.createElement("div");
+      info.classList.add('info')
+
+      review.innerHTML = `
+        <p class="reviews">${item['reviews']}</p>`
+        ;
+      
+      info.innerHTML = `
         <h1 class="Nameofresturant">${item['nameofresturant']}</h1>
-        <p class="reviews">${item['reviews']}</p>
         <p class="openinghour">Opening hours: ${item['openinghour']}</p>
         <p class="priceperperson">Price per person: ${item['priceperperson']}</p>
         <p class="reservation">Reservation app: ${item['reservationapp']}</p> 
@@ -29,7 +39,8 @@ function processEmojis(data) {
 
       
       // Append the new element to container5
-      container5.appendChild(newItem);
+      container5.appendChild(review);
+      container5.appendChild(info);
       
     }
   });

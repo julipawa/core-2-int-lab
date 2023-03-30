@@ -225,3 +225,9 @@ border: solid #FF9900 5px;
   left:85%;
   top:10%;
 }
+
+
+.info{
+  background: yellow;
+  line-height: 1.0;
+}
