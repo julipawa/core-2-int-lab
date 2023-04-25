@@ -1,0 +1,152 @@
+ /* fonts */ 
+
+ @font-face {
+  font-family: "Droplet";
+  src: url("../files/Droplet.ttf");
+  font-variation-settings: "bbbl" 0 100;
+}
+
+
+:root{
+ --custom-font: "Droplet"!important;
+ --bubbles: 100;
+}
+
+.custom-font, .custom-font > * {
+  font-family: "Droplet";
+  font-variation-settings: "bbbl" var(--bubbles);
+  -moz-hyphens: none!important;
+  -ms-hyphens: none!important;
+  -webkit-hyphens: none!important;
+  hyphens: none!important;
+  }
+
+  .custom-font2, .custom-font2 > * {
+    font-family: "Droplet";
+    font-variation-settings: "bbbl" var(--bubbles);
+    font-size: calc(var(--tam-1) * 10);   
+    line-height: 1.2em; 
+    }
+
+ /* display inline-block para evitar que haga DIVs al enter */ 
+
+.textarea {
+  font-size: 70px;
+  line-height: 70px;
+  text-align: center;
+  display:inline-block;
+  }
+
+  .typeshow * , .typegallery * , #paragraphtext {
+    font-variation-settings: "bbbl" var(--bubbles);
+  }
+
+  #headlinetext{
+    font-size: calc(var(--tam-1) * 2.3);
+  }
+
+  #paragraphtext{
+  font-size: calc(var(--base-fontsize) * 2);
+  }
+
+.centerfont {
+  position: absolute;
+  vertical-align: middle;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+.animada, .animada > * {
+animation: 5s infinite variation;
+background: -webkit-linear-gradient(#6bd5ff, #0c65b3);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+color: #0c65b3; 
+}
+
+.animada2, .animada2 > * {
+  --hue: 197;
+  font-family: "Droplet";
+  font-size: calc(var(--tam-1) * 4.7);   
+  line-height: 1.6em; 
+  color: hsl(var(--hue), 100%, 71%); 
+  }
+
+
+  
+  .droplet, .droplet > * {
+    --hue: 197;
+    font-family: "Droplet";
+    font-size: calc(var(--tam-1) * 2.8);   
+    margin-top: clamp(50px, 10vw, 250px);
+    margin-bottom: clamp(50px, 10vw, 250px);
+  line-height: 0px;
+    color: white; 
+    }
+
+
+.animada2 span:nth-child(1), .droplet span:nth-child(1) {
+  animation: 3s infinite variation2;
+  background: -webkit-linear-gradient(hsl(var(--hue), 100%, 71%), hsl(calc(var(--hue) + 50), 100%, 71%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.animada2 span:nth-child(2),.droplet span:nth-child(2) {
+  animation: 3s infinite variation2;
+  animation-delay: 150ms;
+  background: -webkit-linear-gradient(hsl(calc(var(--hue) + 50), 100%, 71%), hsl(calc(var(--hue) + 100), 100%, 71%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.animada2 span:nth-child(3), .droplet span:nth-child(3) {
+  animation: 3s infinite variation2;
+  animation-delay: 300ms;
+  background: -webkit-linear-gradient(hsl(calc(var(--hue) + 100), 100%, 71%), hsl(calc(var(--hue) + 150), 100%, 71%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.animada2 span:nth-child(4), .droplet span:nth-child(4) {
+  animation: 3s infinite variation2;
+  animation-delay: 450ms;
+  background: -webkit-linear-gradient(hsl(calc(var(--hue) + 150), 100%, 71%), hsl(calc(var(--hue) + 200), 100%, 71%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+  
+  @keyframes variation {
+    0% {
+      font-variation-settings: "bbbl" 24;
+    }
+    50% {
+      font-variation-settings: "bbbl" 100;
+    }
+    100% {
+      font-variation-settings: "bbbl" 24;
+    }
+  }
+
+  @keyframes variation2 {
+    0% {
+      font-variation-settings: "bbbl" 0;
+    }
+    50% {
+      font-variation-settings: "bbbl" 100;
+    }
+    100% {
+      font-variation-settings: "bbbl" 0;
+    }
+  }
+
+  
+  
+  
