@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "apis"
+		},
+		{
+			"path": "../../interaction-sp23demos/activities/nyc-data"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "apis"
+	}
+}
