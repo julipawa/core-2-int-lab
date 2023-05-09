@@ -241,20 +241,20 @@ animation-iteration-count: infinite;
 }
 
 .one{
-
+  color:#001CB7;
 text-align: center;
 font-size: 78px;
 }
 
 .three{
-
+  color:#001CB7;
   text-align: center;
   font-size: 48px;
   padding-bottom: 10%;
   }
 
   .two{
-  
+    color:#001CB7;
     text-align: center;
     font-size: 30px;
     padding-left: 20%;
@@ -268,6 +268,7 @@ font-size: 78px;
   }
   
   p{
+    color:#001CB7;
     padding-left: 10%;
     padding-right: 10%;
   }
