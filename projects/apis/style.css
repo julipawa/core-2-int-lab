@@ -2,16 +2,29 @@ body {
    font-family: "june-expt-variable", sans-serif;
    margin: 0;
    height: 100%;
-   background: #F2EBC4;
-   color:#001CB7;
    font-size: 17px;
- }
+    background: linear-gradient(-45deg, #b3ff85, #F2EBC4, #23a6d5, #00fffc);
+    background-size: 400% 400%;
+  animation: gradient-bg 20s ease infinite;
+}
 
+
+
+@keyframes gradient-bg {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
 
 
 .topnav {
   overflow: hidden;
-  background-color: #F2EBC4;
   border-bottom: #001CB7 1px solid;
   display: grid;
   grid-template-columns: 5rem 5rem auto 5rem;
@@ -30,7 +43,7 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #f2ebc4a8;
+
   color: #001CB7;
 }
 
@@ -96,22 +109,17 @@ margin:6px;
 
  a{
    text-decoration-line: none;
-   color:#001CB7;
  }
 
 
  @keyframes bg-change {
    from {
-     background-color: #F2EBC4;
-     color:#001CB7;
      letter-spacing:0px;
      filter:blur(0px);
      font-size:200px;
      font-variation-settings: "STYL" 0;
    }
    to {
-     background-color: #F2EBC4;
-     color:#001CB7;
      filter:blur(0px);
      font-size:200px;
      font-variation-settings: "STYL" 100;
@@ -119,25 +127,53 @@ margin:6px;
    /*"both"playing back and forth*/
  }
 
+
+ @keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+
  .logo{
+
+    background: linear-gradient(
+        to right,
+        #001CB7 20%,
+        #2bd0ff 30%,
+        #82fcff 70%,
+        white 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+
    text-align:center;
    margin-top: 3%;
    font-family: "june-expt-variable", sans-serif;
    font-size: 200px ;
-   color: #001CB7;
+
    animation-name:bg-change;
     animation-duration:5s;
-   animation-iteration-count: calc(1);
    font-variation-settings: "STYL" 100;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
  }
 
- .logo a:hover {
+ /*.logo a:hover {
   animation-name:bg-change;
     animation-duration:5s;
    animation-iteration-count: calc(1);
    font-variation-settings: "STYL" 100;
+   background-color: none;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
 
-}
+}*/
 
 #data-container{
   padding: 2%;
